@@ -6,7 +6,7 @@ class Category extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: false,
+      active: this.props.active || false,
       userInfo: this.setUserInfo(),
     };
 

@@ -2,6 +2,7 @@ import React from "react";
 import Category from "./components/category";
 import uniqid from "uniqid";
 import { general, work, education, hobbies } from "./inputs";
+import "./styles/App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -15,11 +16,7 @@ class App extends React.Component {
         />,
       ],
       work: [
-        <Category 
-          inputs={work} 
-          sectionClass="info-work" 
-          key={uniqid()} 
-        />,
+        <Category inputs={work} sectionClass="info-work" key={uniqid()} />,
       ],
       education: [
         <Category
@@ -39,7 +36,14 @@ class App extends React.Component {
   }
 
   buildCategory(inputs, className) {
-    return <Category inputs={inputs} className={className} key={uniqid()} />;
+    return (
+      <Category
+        inputs={inputs}
+        className={className}
+        active="true"
+        key={uniqid()}
+      />
+    );
   }
 
   appendSection(stateKey, inputs, className) {
@@ -65,7 +69,9 @@ class App extends React.Component {
             {this.state.work.map((item) => item)}
           </div>
           <button
-            onClick={this.appendSection.bind(this, "work", work, "info-work")}
+            onClick={() => {
+              this.appendSection("work", work, "info-work");
+            }}
           >
             New +
           </button>

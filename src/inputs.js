@@ -47,7 +47,7 @@ export const work = {
     text: "Tasks",
     type: "text",
   },
-}
+};
 
 export const education = {
   schoolName: {
@@ -70,7 +70,7 @@ export const education = {
     text: "End Date",
     type: "date",
   },
-}
+};
 
 export const hobbies = {
   hobby: {
@@ -78,4 +78,4 @@ export const hobbies = {
     text: "Hobby",
     type: "text",
   },
-}
+};

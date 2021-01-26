@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./form";
-import uniqid from 'uniqid';
+import uniqid from "uniqid";
 
 class Section extends React.Component {
   constructor(props) {
@@ -71,7 +71,10 @@ class Section extends React.Component {
       const info = Object.entries(this.state.userInfo);
 
       return (
-        <div className={this.props.sectionClass} onClick={this.toggleActiveStatus}>
+        <div
+          className={this.props.sectionClass}
+          onClick={this.toggleActiveStatus}
+        >
           {info.map((item) => this.buildElement(item))}
         </div>
       );

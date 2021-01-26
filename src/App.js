@@ -1,8 +1,7 @@
-import Section from './components/section';
-import { general, work, education, hobbies } from './inputs';
+import Section from "./components/section";
+import { general, work, education, hobbies } from "./inputs";
 
 function App() {
-  
   return (
     <div className="app">
       <Section inputs={general} sectionClass="info-general" />

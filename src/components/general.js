@@ -86,7 +86,7 @@ class General extends React.Component {
       const { name, email, address, phoneNum } = this.state.userInfo;
 
       return (
-        <div className="inactive" onClick={this.toggleActiveStatus}>
+        <div className="info-general" onClick={this.toggleActiveStatus}>
           <p>{name || "Name"}</p>
           <p>{email || "Email"}</p>
           <p>{address || "Address"}</p>

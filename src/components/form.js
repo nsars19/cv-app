@@ -22,10 +22,8 @@ class Form extends React.Component {
   }
 
   render() {
-    const formArray = Object.entries(this.props.formInfo)
-    const formInfo = formArray.map(item => {
-      return item[1]
-    })
+    const formArray = Object.entries(this.props.formInfo);
+    const formInfo = formArray.map((item) => item[1]);
 
     return (
       <form

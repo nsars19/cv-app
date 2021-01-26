@@ -59,7 +59,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <a href="https://google.com" className="github-logo">
+        <a
+          href="https://github.com/nsars19/cv-app"
+          className="github-logo"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         {/* GENERAL INFO */}

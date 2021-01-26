@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nsars19/cv-app/static/css/main.c90435c1.chunk.css",
+    "main.js": "/nsars19/cv-app/static/js/main.803ce5e6.chunk.js",
+    "main.js.map": "/nsars19/cv-app/static/js/main.803ce5e6.chunk.js.map",
+    "runtime-main.js": "/nsars19/cv-app/static/js/runtime-main.d36fe0d5.js",
+    "runtime-main.js.map": "/nsars19/cv-app/static/js/runtime-main.d36fe0d5.js.map",
+    "static/js/2.59c5587e.chunk.js": "/nsars19/cv-app/static/js/2.59c5587e.chunk.js",
+    "static/js/2.59c5587e.chunk.js.map": "/nsars19/cv-app/static/js/2.59c5587e.chunk.js.map",
+    "index.html": "/nsars19/cv-app/index.html",
+    "static/css/main.c90435c1.chunk.css.map": "/nsars19/cv-app/static/css/main.c90435c1.chunk.css.map",
+    "static/js/2.59c5587e.chunk.js.LICENSE.txt": "/nsars19/cv-app/static/js/2.59c5587e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d36fe0d5.js",
+    "static/js/2.59c5587e.chunk.js",
+    "static/css/main.c90435c1.chunk.css",
+    "static/js/main.803ce5e6.chunk.js"
+  ]
+}

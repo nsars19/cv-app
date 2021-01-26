@@ -1,4 +1,4 @@
-import Category from "./components/section";
+import Category from "./components/category";
 import { general, work, education, hobbies } from "./inputs";
 
 function App() {

@@ -12,6 +12,7 @@ body {
   background-color: #eee;
 }
 .app {
+  position: relative;
   width: 80%;
   max-width: 800px;
   max-height: 5000px;
@@ -131,3 +132,9 @@ button:active {
   transition: height 1.0s ease;
 }
 
+a.github-logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}

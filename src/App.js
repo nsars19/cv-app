@@ -63,6 +63,7 @@ class App extends React.Component {
           href="https://github.com/nsars19/cv-app"
           className="github-logo"
           target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>

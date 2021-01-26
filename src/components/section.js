@@ -29,7 +29,21 @@ class Section extends React.Component {
     });
   }
 
-  handleSubmit() {}
+  handleSubmit(event) {
+    event.preventDefault();
+
+    const formData = [...event.target.children];
+
+    formData.forEach((val) => {
+      if (val.type === "submit") return;
+
+      const stateVal = val.dataset.stateKey;
+      const userState = this.state.userInfo;
+      userState[stateVal] = val.value;
+
+      this.setState({ userState });
+    });
+  }
 
   buildElement(item) {
     const input = this.props.inputs;

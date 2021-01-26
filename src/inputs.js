@@ -35,12 +35,12 @@ export const work = {
   startDate: {
     stateKey: "startDate",
     text: "Start Date",
-    type: "date",
+    type: "text",
   },
   endDate: {
     stateKey: "endDate",
     text: "End Date",
-    type: "date",
+    type: "text",
   },
   tasks: {
     stateKey: "tasks",
@@ -63,12 +63,12 @@ export const education = {
   startDate: {
     stateKey: "startDate",
     text: "Start Date",
-    type: "date",
+    type: "text",
   },
   endDate: {
     stateKey: "endDate",
     text: "End Date",
-    type: "date",
+    type: "text",
   },
 };
 

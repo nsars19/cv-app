@@ -2,6 +2,8 @@ import React from "react";
 import Category from "./components/category";
 import uniqid from "uniqid";
 import { general, work, education, hobbies } from "./inputs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./styles/App.css";
 
 class App extends React.Component {
@@ -57,6 +59,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
+        <a href="https://google.com" className="github-logo">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
         {/* GENERAL INFO */}
         <section className="section-general">
           {this.state.general.map((item) => item)}

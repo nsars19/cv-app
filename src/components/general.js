@@ -43,8 +43,6 @@ class General extends React.Component {
     console.log(this.state.userInfo);
   }
 
-  formFilledOut() {}
-
   render() {
     const inputs = {
       name: {

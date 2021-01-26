@@ -134,7 +134,7 @@ button:active {
 
 a.github-logo {
   position: fixed;
-  top: 0;
-  right: 0;
-  font-size: 20px;
+  bottom: 5px;
+  left: 5px;
+  font-size: 25px;
 }

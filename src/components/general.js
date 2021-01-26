@@ -6,7 +6,7 @@ class General extends React.Component {
     super(props);
 
     this.state = {
-      active: true,
+      active: false,
       userInfo: {
         name: "",
         email: "",

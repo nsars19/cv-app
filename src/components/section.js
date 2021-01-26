@@ -2,11 +2,11 @@ import React from "react";
 import Form from "./form";
 import uniqid from "uniqid";
 
-class Section extends React.Component {
+class Category extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: true,
+      active: false,
       userInfo: this.setUserInfo(),
     };
 
@@ -82,4 +82,4 @@ class Section extends React.Component {
   }
 }
 
-export default Section;
+export default Category;

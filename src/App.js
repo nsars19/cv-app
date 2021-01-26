@@ -1,13 +1,24 @@
-import Section from "./components/section";
+import Category from "./components/section";
 import { general, work, education, hobbies } from "./inputs";
 
 function App() {
   return (
     <div className="app">
-      <Section inputs={general} sectionClass="info-general" />
-      <Section inputs={work} sectionClass="info-work" />
-      <Section inputs={education} sectionClass="info-education" />
-      <Section inputs={hobbies} sectionClass="info-hobbies" />
+      <section className="section">
+        <Category inputs={general} sectionClass="info-general" />
+      </section>
+      <section className="section">
+        <h2>Work Experience</h2>
+        <Category inputs={work} sectionClass="info-work" />
+      </section>
+      <section className="section">
+        <h2>education</h2>
+        <Category inputs={education} sectionClass="info-education" />
+      </section>
+      <section className="section">
+        <h2>Hobbies</h2>
+        <Category inputs={hobbies} sectionClass="info-hobbies" />
+      </section>
     </div>
   );
 }

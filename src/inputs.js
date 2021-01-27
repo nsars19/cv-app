@@ -1,4 +1,4 @@
-export const general = {
+export const generalDefault = {
   name: {
     stateKey: "name",
     text: "Name",
@@ -21,7 +21,7 @@ export const general = {
   },
 };
 
-export const work = {
+export const workDefault = {
   companyName: {
     stateKey: "companyName",
     text: "Company",
@@ -49,7 +49,7 @@ export const work = {
   },
 };
 
-export const education = {
+export const educationDefault = {
   schoolName: {
     stateKey: "schoolName",
     text: "School",
@@ -72,7 +72,7 @@ export const education = {
   },
 };
 
-export const hobbies = {
+export const hobbiesDefault = {
   hobby: {
     stateKey: "hobby",
     text: "Hobby",

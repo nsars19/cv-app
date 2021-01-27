@@ -13,7 +13,7 @@ const Form = (props) => {
         defaultValue={props.userInfo[input.stateKey] || ""}
       ></input>
     );
-  }
+  };
 
   const formArray = Object.entries(props.formInfo);
   const formInfo = formArray.map((item) => item[1]);
@@ -29,6 +29,6 @@ const Form = (props) => {
       <input type="submit" />
     </form>
   );
-}
+};
 
 export default Form;

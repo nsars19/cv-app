@@ -18,7 +18,7 @@ const App = (props) => {
       sectionClass="info-general"
       key={uniqid()}
     />,
-  ]
+  ];
 
   const [work, setWork] = useState([
     <Category inputs={workDefault} sectionClass="info-work" key={uniqid()} />,
@@ -79,7 +79,7 @@ const App = (props) => {
         </div>
         <button
           onClick={() => {
-            appendSection(setWork, work, workDefault, "info-work")
+            appendSection(setWork, work, workDefault, "info-work");
           }}
         >
           New +
@@ -94,7 +94,12 @@ const App = (props) => {
         </div>
         <button
           onClick={() => {
-            appendSection(setEducation, education, educationDefault, "info-education")
+            appendSection(
+              setEducation,
+              education,
+              educationDefault,
+              "info-education"
+            );
           }}
         >
           New +
@@ -107,7 +112,7 @@ const App = (props) => {
         <div className="hobbies-wrap">{hobbies.map((item) => item)}</div>
         <button
           onClick={() => {
-            appendSection(setHobbies, hobbies, hobbiesDefault, "info-hobbies")
+            appendSection(setHobbies, hobbies, hobbiesDefault, "info-hobbies");
           }}
         >
           New +
